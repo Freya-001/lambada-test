@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mydb
+#wechat:
+#  mp:
+#    webURL:
+#    host:
+#    appId: wx60b11a703528eb08
+#    secret: 266dd4b13c3d1b34a9dd6e34943b8d9f
+#    token:
+#    aesKey:
+sinsz:
+  wxpn:
+    wechat-id: gh_1401292ae33
+    app-id: wx60b11a703528eb08
+    app-secret: 266dd4b13c3d1b34a9dd6e34943b8d9f
+    aes-token: 95Zb948Ze9924ddcb89736Zb5bAfc2c8
+    aes-key: qdfc28EPgldldfgzijXgx0MyvretHMtfIicfrT99zo
+    aes-class: com.example.lambadatest.weixin.config.DemoMessageHandler
+    oauth: http://xingnan123.ngrok2.xiaomiqiu.cn
